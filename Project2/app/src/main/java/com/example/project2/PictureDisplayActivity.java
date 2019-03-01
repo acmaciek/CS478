@@ -8,27 +8,24 @@ import android.view.View;
 import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.Toast;
-
+//Activity that displays full size picture of the phone
 public class PictureDisplayActivity extends AppCompatActivity {
-
+    Data data = new Data();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_picture_display);
+        //initialize
         ImageView pictureDisplay = findViewById(R.id.pictureDisplay);
-        final WebView myWebView = findViewById(R.id.myWebView);
-
         Intent intent = getIntent();
-        final int image = intent.getIntExtra("data",0);
-        final String url = intent.getStringExtra("url");
-        pictureDisplay.setImageResource(image);
+        //get position of the cell from list view
+        final int position = intent.getIntExtra("position",0);
+        pictureDisplay.setImageResource(data.images[position]); //display the image of the phone
 
-        pictureDisplay.setOnClickListener(new View.OnClickListener() {
+        pictureDisplay.setOnClickListener(new View.OnClickListener() {//function triggered when picture is clicked on
             @Override
             public void onClick(View v) {
-//                myWebView.setVisibility(View.VISIBLE);
-//                myWebView.loadUrl(url);
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(data.urls[position])); //web browser activity
                 startActivity(browserIntent);
             }
         });
