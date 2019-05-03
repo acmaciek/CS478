@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="phone_names">
+        <item>Apple iPhone XS</item>
+        <item>Huawei Mate 20 Pro</item>
+        <item>Google Pixel 3 XL</item>
+        <item>Google Pixel 3</item>
+        <item>Samsung Galaxy S10e</item>
+        <item>OnePlus 6T</item>
+        <item>Huawei P20 Pro</item>
+        <item>Apple iPhone XR</item>
+        <item>LG V40 ThinQ</item>
+    </string-array>
+    
+    <string-array name="phone_urls">
+        <item>xs.jpg</item>
+        <item>https://consumer.huawei.com/en/phones/mate20-pro/</item>
+        <item>https://store.google.com/us/product/pixel_3?hl=en-US</item>
+        <item>https://store.google.com/us/product/pixel_3?hl=en-US</item>
+        <item>www.samsung.com/Galaxy/S10‎</item>
+        <item>https://www.oneplus.com/6t</item>
+        <item>https://consumer.huawei.com/en/phones/p20-pro/</item>
+        <item>https://www.apple.com/iphone-xr/</item>
+        <item>https://www.lg.com/us/mobile-phones/v40-thinq</item>
+    </string-array>
+
+    <string-array name="phone_images">
+        <item>file:///android_res/drawable/xs.jpg</item>
+        <item>file:///android_res/drawable/mate20.jpg</item>
+        <item>file:///android_res/drawable/pixel.jpg</item>
+        <item>file:///android_res/drawable/pixel.jpg</item>
+        <item>file:///android_res/drawable/galaxy10.png</item>
+        <item>file:///android_res/drawable/oneplus.jpg</item>
+        <item>file:///android_res/drawable/p20.jpg</item>
+        <item>file:///android_res/drawable/iphonexr.jpg</item>
+        <item>file:///android_res/drawable/thinkq.jpg</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/drop_menu"
+    android:title="Launch A1 and A2"
+    app:showAsAction="never">
+</item>
+    <item
+        android:id="@+id/bla"
+        android:title="Exit A3"
+        app:showAsAction="never">
+    </item>
+</menu>

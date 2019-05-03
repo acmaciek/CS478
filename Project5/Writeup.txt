@@ -1,0 +1,3 @@
+# CS478 Development of Mobile Apps (Android) 2019 Spring Project 5
+First run ClipServer, to compile the program since it does not have main interface you should change Run>EditConfigurations>AndroidApp>App change Launch Options to “Nothing” initially it is set to “Default Activity”.
+Then run AuctioClient sometimes when you run first time the app closes but when you run it again, it works as intended.
